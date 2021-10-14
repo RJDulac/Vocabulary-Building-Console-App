@@ -14,9 +14,10 @@ namespace VocabularyBuildingConsoleApp
                 Console.WriteLine("Press 'Q' to quit.");
 
                 string input = Console.ReadLine().ToUpper();
+
                 if (input == "Q")
                 {
-                    isRunning == false;
+                    isRunning = false;
                 }
 
             } while (isRunning == true);
