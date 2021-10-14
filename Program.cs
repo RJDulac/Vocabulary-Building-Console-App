@@ -19,7 +19,6 @@ namespace VocabularyBuildingConsoleApp
                 {
                     isRunning = false;
                 }
-
             } while (isRunning == true);
         }
     }
